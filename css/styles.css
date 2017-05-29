@@ -1,0 +1,111 @@
+body{
+    background-color: #eee;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.block{
+    width: 70%;
+    display: block;
+}
+
+div.center {
+    margin-left: auto; margin-right: auto;
+}
+
+div.postar{
+    padding: 20px; background-color: white;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    top:50px;
+}
+
+.postar-title
+{
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.center-text{
+    text-align:center;
+}
+
+.spaceabove{
+    padding-top: 50px;
+}
+
+.background-white{
+    background-color:white;
+}
+
+.popup-link-1{
+    color:blue;
+    cursor:pointer;
+}
+
+.msg-error{
+    color:red;
+}
+
+.input-custom{
+    padding:10px;
+}
+
+.cursorpointer{
+    cursor:pointer;
+}
+
+.notification-topbar{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+.logado-topbar{
+    background-color:dodgerblue; padding:5px 5px;
+}
+
+td, th{
+    padding: 5px 5px;
+    border-left:1px solid lightgrey;
+    border-bottom:1px solid lightgrey;
+}
+
+/* POPUPS */
+.popup-background{
+    position:fixed; display:block; height:100%; width:100%; z-index: 2;
+}
+
+.popup-background-black{
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.popup-bt-close{
+    float:right; cursor:pointer; padding:1px; border-radius:2px;
+}
+/* FIM POPUPS */
+
+
+
+/* CHAMADOS */
+.chamados-historico{
+    overflow: auto;
+    border:1px solid black;
+    padding:8px;
+    max-height:350px;
+}
+
+.chamadoquadroholder{
+    display: inline-block; max-width:30%; vertical-align: top; padding-top:5px;
+}
+
+.chamadoquadro{
+    background-color: indianred; text-align:center; padding:5px; border:1px solid black; word-wrap: break-word;
+}
+
+.chamadoquadro:hover{
+    border-color:white;
+}
+/* FIM CHAMADOS */
